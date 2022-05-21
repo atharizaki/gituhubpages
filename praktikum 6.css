@@ -1,0 +1,74 @@
+body {
+    
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-size: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 0;
+    padding-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+nav ul li:hover {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bar a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.bar {
+    border: 0px solid;
+    background-color:rgba(255, 255, 255, 0.515);
+    border-radius: 10px;
+    
+}
+
+.logo {
+    color: yellow;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+span {
+    color: red;
+    font-size: 18px;
+}
+
+.survey {
+    border: 2px solid;
+    
+    
+}
+
+.margin {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.kirim {
+    cursor: pointer;
+}
